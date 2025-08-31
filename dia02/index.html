@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="meuForm">
+        <input type="text" name="nome" placeholder="Digite seu nome" class="container__input">
+        <input type="number" name="idade" placeholder="Digite sua idade" class="container__input">
+        <input type="text" name="linguagem" placeholder="Digite a linguagem que está programando"
+            class="container__input">
+
+        <div class="chute container__botoes">
+            <button type="button" onclick="armazenaInfo()" id="enviar" class="container__botao">Enviar</button>
+        </div>
+    </form>
+
+    <p id="mensagem"></p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

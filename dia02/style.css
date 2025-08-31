@@ -1,0 +1,71 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  /* Cor de fundo estática pastel */
+  background-color: #D3F7CD;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(64, 58, 38, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.container__input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #81876C;
+  border-radius: 12px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #403A26;
+}
+
+.container__input:focus {
+  border-color: #403A26;
+  outline: none;
+}
+
+.container__botoes {
+  text-align: center;
+}
+
+.container__botao {
+  background-color: #B5F7CD;
+  color: #403A26;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(64, 58, 38, 0.2);
+}
+
+.container__botao:hover {
+  background-color: #D3F7CD;
+}
+
+#mensagem {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 12p
+}
